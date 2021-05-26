@@ -21,6 +21,7 @@ const Home = () => {
     const getComics = async () => {
         await api.get('/comics')
             .then((response) => {
+                // ----------------------------------------------------------------------------------------
                 console.log(response.data.data.results);
                 setData(response.data.data.results);
             })
@@ -45,7 +46,7 @@ const Home = () => {
                     <div className="spinner-border text-danger" role="status"></div>
                 </div>
                 :
-                <Container className="container">
+                <Container>
                     {data.map(comic => (
                         <Card key={comic.id} className="card">
                             <CardImg className="img-comic" src={`${comic.thumbnail.path}.${comic.thumbnail.extension}`} alt={`Image comic ${comic.title}`} />
@@ -53,7 +54,7 @@ const Home = () => {
                                 <CardTitle tag="h5">{comic.title}</CardTitle>
                                 <CardText>Price: {comic.prices[0].price > 0 ? comic.prices[0].price : "UNAVAILABLE"}</CardText>
                                 <div className="btn-container">
-                                    <Link className="btn btn-outline-success" to={"/purchase"}>Purchase it Now</Link>
+                                    <Link className="btn btn-outline-success" to={"/purchase/"+comic.id}>Purchase it Now</Link>
                                     <ModalComponent
                                         buttonLabel="More"
                                         className="btn btn-light btn-outline-danger"

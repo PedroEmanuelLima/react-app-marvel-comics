@@ -11,6 +11,10 @@ Baixar dependecias:
 Rodar o projeto React:
 >### npm start
 
+## Criar arquivo .env na raiz com:
+### REACT_APP_PUBLIC_KEY=<<<chave pública da API>>>
+### REACT_APP_PRIVATE_KEY=<<<chave privada da API>>>
+
 #
 
 ## DEPENDENCIAS PARA
