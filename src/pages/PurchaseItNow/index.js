@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Form, FormGroup, Label, Input } from 'reactstrap';
-import { Container } from 'reactstrap';
+import { Container, Form, FormGroup, Label, Input } from 'reactstrap';
+import { MapComponent } from '../../components/MapComponent';
 
 export const PurchaseItNow = props => {
 
@@ -8,7 +8,7 @@ export const PurchaseItNow = props => {
 
     return (
         <Container className="d-block">
-            <Form className="col align-self-center">
+            <Form>
                 <div className="border p-3 mb-4 rounded">
                     <h3 className="mb-4">Personal Data</h3>
 
@@ -63,7 +63,9 @@ export const PurchaseItNow = props => {
                 </div>
             </Form>
 
-
+            <MapComponent
+                center={{ lat: -7.254107, lng: -39.039949}}
+            />
         </Container>
     );
 };

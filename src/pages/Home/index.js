@@ -22,7 +22,7 @@ const Home = () => {
         await api.get('/comics')
             .then((response) => {
                 // ----------------------------------------------------------------------------------------
-                console.log(response.data.data.results);
+                //console.log(response.data.data.results);
                 setData(response.data.data.results);
             })
             .catch(() => {
