@@ -14,7 +14,8 @@ Rodar o projeto React:
 ## Criar arquivo .env na raiz com:
 ### REACT_APP_PUBLIC_KEY=<<<chave pública da API>>>
 ### REACT_APP_PRIVATE_KEY=<<<chave privada da API>>>
-
+### REACT_APP_GOOGLE_KEY=<<<chave da API do Google>>>
+### Para o fucionamento correto do Mapa é necessário ativar as bibliotecas Places API, Maps JavaScript API e Geocoding API no Google Cloud Platform
 #
 
 ## DEPENDENCIAS PARA
@@ -27,3 +28,7 @@ Criptografar hash md5 para chamar API: md5
 Implementar o layout: Bootstrap utilizando o reactstrap 
 >### npm install --save bootstrap
 >### npm install --save reactstrap
+Trabalhar com Google Maps na aplicação:
+### npm install --save react-google-maps
+### npm install --save react-google-autocomplete
+### npm install --save react-geocode
