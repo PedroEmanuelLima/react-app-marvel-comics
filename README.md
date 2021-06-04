@@ -34,4 +34,4 @@ Implementar o layout: Bootstrap utilizando o reactstrap
 Trabalhar com Google Maps na aplicação:
 > ### npm install --save react-google-maps
 > ### npm install --save react-google-autocomplete
-> ### npm install --save react-geocode
+> ### npm install --save react-geocodea4247
