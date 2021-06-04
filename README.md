@@ -1,8 +1,7 @@
 ## BAIXAR PROJETO E ACESSAR RAIZ:
 
 > `git clone` https://github.com/PedroEmanuelLima/react-app-marvel-comics.git
-<br />
-`cd` react-app-marvel-comics
+> `cd` react-app-marvel-comics
 
 ## Criar arquivo .env na raiz com:
 > REACT_APP_PUBLIC_KEY=<'chave pública da API'>
