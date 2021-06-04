@@ -1,7 +1,7 @@
 ## BAIXAR PROJETO E ACESSAR RAIZ:
 
-> ### `git clone` https://github.com/PedroEmanuelLima/react-app-marvel-comics.git
-> ### `cd` react-app-marvel-comics
+> ### ```git clone https://github.com/PedroEmanuelLima/react-app-marvel-comics.git
+cd react-app-marvel-comics ```
 
 ## Criar arquivo .env na raiz com:
 > REACT_APP_PUBLIC_KEY=<'chave pública da API'>
@@ -11,8 +11,9 @@ REACT_APP_PRIVATE_KEY=<'chave privada da API'>
 REACT_APP_GOOGLE_KEY=<'chave da API do Google'>
 
 ### Para o fucionamento correto do Mapa é necessário ativar as bibliotecas Places API, Maps JavaScript API e Geocoding API no Google Cloud Platform
-#
+
 ## NA RAIZ EXECUTE OS SEGUITES COMANDOS PARA:
+
 Baixar dependecias e iniciar projeto:
 > ### `npm install`
 > ### `npm start`
