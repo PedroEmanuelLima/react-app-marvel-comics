@@ -13,7 +13,6 @@ REACT_APP_GOOGLE_KEY=<'chave da API do Google'>
 ### Para o fucionamento correto do Mapa é necessário ativar as bibliotecas Places API, Maps JavaScript API e Geocoding API no Google Cloud Platform
 #
 ## NA RAIZ EXECUTE OS SEGUITES COMANDOS PARA:
-
 Baixar dependecias e iniciar projeto:
 > ### `npm install`
 > ### `npm start`
