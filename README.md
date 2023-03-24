@@ -62,17 +62,18 @@ Execute.
 
 ### Tela 1:
 Listagem de quadrinhos em cards, com opção de mais, onde exibe um modal com mais informações e opção de comprar:
-<div style="display:flex; justify-content: space-between; width: 100%;">
-    <img style="width: 72%;" src="Gifs/mc1.gif">
-    <img style="width: 25%;" src="Gifs/marvel-c.gif">
-</div>
+Web | Mobile
+:--------- | :------:
+<img src="Gifs/mc1.gif"> | <img style="width: 60%;" src="Gifs/marvel-c.gif">
+
 <br>
 
 ### Tela 2:
 Formulário de compra, preencher com confirmação de dados, inclusive endereço com auxilio de uma mapa:
-<div style="display:flex; justify-content: center;">
-    <img style="width: 75%;" src="Gifs/mc2.gif">
-</div>
+ * | Formulário |  *
+:--------- | :------: | -------:
+" | <img style="width: 75%;" src="Gifs/mc2.gif"> | "
+
 <br>
 
 ## 💻 Autor: Pedro Emanuel
